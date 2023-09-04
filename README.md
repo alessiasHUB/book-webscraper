@@ -9,7 +9,7 @@ It is a very simple little app where you can type in a year (2011-2022)as well a
 ## 🚀Deployment
 
 You can find the deployed version over at vercel:
-[Here](https://package-downloads-webscraper.vercel.app/ "Opens in new tab")
+[Here](https://book-scraper.vercel.app/ "Opens in new tab")
 
 ## 🏃‍♀️Run it locally
 

@@ -55,8 +55,10 @@ const Home: React.FC = () => {
   const [category, setCategory] = useState<Category>();
   const [loading, setLoading] = useState(false);
 
-  const deployed = false;
-  const baseUrl = deployed ? "" : "http://localhost:3000";
+  const deployed = true; //change if developing locally
+  const baseUrl = deployed
+    ? "https://book-scraper.vercel.app/"
+    : "http://localhost:3000";
 
   const getBook = async () => {
     setLoading(true);
